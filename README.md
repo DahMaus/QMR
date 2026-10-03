@@ -1,5 +1,6 @@
 # QMR
 ![QMR Preview](github.png)
+## IT STORES UR USERNAME SO BE BEWARE BEFORE DOWNLOADING
 
 Question Mark React X posts
 
