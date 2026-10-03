@@ -1,4 +1,3 @@
-// After deploying the worker, paste its URL here (no trailing slash)
 const API = 'https://qreact.melodiecum.workers.dev';
 
 chrome.runtime.onMessage.addListener((msg, _sender, respond) => {
@@ -19,5 +18,5 @@ chrome.runtime.onMessage.addListener((msg, _sender, respond) => {
       respond(null);
     }
   })();
-  return true; // keep channel open for async response
+  return true;
 });

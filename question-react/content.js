@@ -1,8 +1,5 @@
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
-// Built with the DOM API instead of string parsing: markup is static, but AMO
-// rejects HTML-string assignments outright. Styling (stroke/fill/size) all
-// comes from style.css, so only the geometry attributes live here.
 function makeIcon() {
   const svg = document.createElementNS(SVG_NS, 'svg');
   svg.setAttribute('viewBox', '0 0 24 24');
@@ -20,7 +17,7 @@ function makeIcon() {
   return svg;
 }
 
-const state = {};          // postId -> { n, mine }
+const state = {};
 let me = null;
 let queue = new Set();
 let timer = null;
@@ -111,7 +108,7 @@ function inject(article) {
     btn.classList.remove('qr-pop'); void btn.offsetWidth;
     if (on) btn.classList.add('qr-pop');
     const r = await send({ type: 'react', user: me, post: id, on });
-    if (!r || !r.ok) {            // revert on failure
+    if (!r || !r.ok) {
       s.mine = !on; s.n = Math.max(0, s.n + (on ? -1 : 1));
       renderAll();
     }
