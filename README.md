@@ -1,6 +1,6 @@
 # QMR
 ![QMR Preview](github.png)
-## IT STORES UR USERNAME TO KNOW IF U REACTED (i cant do anything with ur handle its just like as if i give u my handle name @dahmaus) lmao
+## IT STORES UR USERNAME TO KNOW IF U REACTED (i cant do anything with ur handle its just like as if i give u my handle name @dahmaus) lol
 
 Question Mark React X posts
 
