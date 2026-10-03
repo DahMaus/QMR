@@ -1,0 +1,13 @@
+# Wrangler local state (contains cached account info and local D1 data)
+.wrangler/
+
+# Dependencies
+node_modules/
+
+# Build artifacts - regenerate with:
+#   cd question-react && zip -X -r ../question-react-chrome.zip manifest.json background.js content.js style.css
+*.zip
+
+# OS cruft
+.DS_Store
+Thumbs.db

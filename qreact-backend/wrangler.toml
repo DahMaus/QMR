@@ -1,0 +1,8 @@
+name = "qreact"
+main = "worker.js"
+compatibility_date = "2024-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "qreact"
+database_id = "a22a35e7-c1eb-41e4-896e-0434d58ed69f"
