@@ -1,6 +1,6 @@
 # QMR
 ![QMR Preview](github.png)
-## IT STORES UR USERNAME SO BE BEWARE BEFORE DOWNLOADING
+## IT STORES UR USERNAME TO KNOW IF U REACTED (i cant do anything with ur handle its just like as if i give u my handle name @dahmaus) lmao
 
 Question Mark React X posts
 
